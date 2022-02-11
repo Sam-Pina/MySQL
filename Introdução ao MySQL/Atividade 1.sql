@@ -4,7 +4,8 @@
 
 -- Crie uma tabela de funcionaries e utilizando a habilidade de abstração e determine 5
 -- atributos relevantes dos funcionaries para se trabalhar com o serviço deste RH.
-drop table if EXISTS funcionarios;
+drop table if exists funcionarios; 
+
 use servicos_rh;
 
 create table funcionarios(            -- criando tabela e colocando atributos
